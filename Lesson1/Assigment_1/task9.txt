@@ -1,0 +1,14 @@
+sInt = null;
+This line is going to be valid since we just define the reference of the student interface as null which means it didnt get created yet
+
+sInt = student;
+This is also valid. Here we use upcasting. The Student Subclass can be assigned to interface variables
+
+student = sInt;
+Will try to assign an sInt to stundent. This will cause an error since the student Interface can also be implemented by something else than Student
+
+sInt = new StudentInterface();
+this will also throw an error since Interfaces cant be instanced directly and therefore this is wrong it should be sInt = new Student()
+
+sInt.someMethodInStudentInterface();
+This will work if the someMethodInStudentInterface() method is implemented in the student interface
