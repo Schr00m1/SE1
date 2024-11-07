@@ -1,0 +1,42 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+--release
+23
+-sourcepath
+'/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Assigment_1 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Assigment_1 1.0-SNAPSHOT API'
+at.mci.assigment_1
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/src/main/java = 1729778554000
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/tag-search-index.js = 1730989514720
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/package-search-index.js = 1730989514720
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/type-search-index.js = 1730989514720
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/allclasses-index.html = 1730989514716
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/index.html = 1730989514733
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/search.html = 1730989514733
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/allpackages-index.html = 1730989514716
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/index-all.html = 1730989514730
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/element-list = 1730989514673
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/javadoc.sh = 1730989354530
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/member-search-index.js = 1730989514720
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/overview-tree.html = 1730989514703
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/help-doc.html = 1730989514736
+/home/Clemens/MCI/WS24/SE1/Lesson1/Assigment_1/target/reports/apidocs/module-search-index.js = 1730989514720
