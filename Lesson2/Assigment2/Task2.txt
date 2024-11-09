@@ -1,0 +1,5 @@
+the output of t.display() logically will be 23 since a there is 23
+
+but of testEx it will also be 23 we didnt override the display function in testEx and when setting a as string in testEx it only hides the value of the a = 23 in test
+but when we call the diplay of Test then it recognoizes the 23 again and therefore the output of testEx.display() is also 23
+if we would want to make it output the string we would need to override the display method in testEx

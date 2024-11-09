@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package at.mci.assigment_1;
+package at.mci.clemens.task3;
 
 import java.util.ArrayList;
 
@@ -31,7 +31,7 @@ public class Student {
     private String name;
     private String group;
     private String proficiencyInJava;
-    private String studentID;
+    private int studentID;
     private String gender;
     private static int numberOfStudents;
     private ArrayList<Integer> grades;
@@ -49,7 +49,7 @@ public class Student {
      *
      * @param studentID The stundent ID as parameter
      */
-    public Student(String studentID) {
+    public Student(int studentID) {
         this();
         this.studentID = studentID;      
     }
@@ -59,7 +59,7 @@ public class Student {
      * @param name Name of the student as parameter
      * @param studentID The stundent ID as parameter
      */
-    public Student(String name, String studentID) {
+    public Student(String name, int studentID) {
         this(studentID);
         this.name = name;  
     }
@@ -70,7 +70,7 @@ public class Student {
      * @param studentID The stundent ID as parameter
      * @param gender The gender of the student as parameter 
      */
-    public Student(String name, String studentID, String gender) {
+    public Student(String name, int studentID, String gender) {
         this(name, studentID);
         this.gender = gender;
     }
@@ -82,7 +82,7 @@ public class Student {
      * @param gender The gender of the student as parameter 
      * @param group The group of the student as parameter 
      */
-    public Student(String name, String studentID, String gender, String group) {
+    public Student(String name, int studentID, String gender, String group) {
         this(name, studentID, gender);
         this.group = group;
     }
@@ -95,7 +95,7 @@ public class Student {
      * @param group The group of the student as parameter 
      * @param proficiencyInJava The Knowledge a student has in java of the student as parameter 
      */
-    public Student(String name, String studentID, String gender, String group, String proficiencyInJava) {
+    public Student(String name, int studentID, String gender, String group, String proficiencyInJava) {
         this(name, studentID, gender, group);
         this.proficiencyInJava = proficiencyInJava;
     }
@@ -167,7 +167,7 @@ public class Student {
      *getter for stundent id
      * @return string studentID
      */
-    public String getStudentID() {
+    public int getStudentID() {
         return studentID;
     }
 
@@ -175,7 +175,7 @@ public class Student {
      * Set the Student id of a stundent
      * @param studentID
      */
-    public void setStudentID(String studentID) {
+    public void setStudentID(int studentID) {
         this.studentID = studentID;
     }
 

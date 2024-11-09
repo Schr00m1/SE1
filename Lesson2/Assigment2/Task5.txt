@@ -1,0 +1,3 @@
+if an exception is thrown in some_single_instruction 2 then some_single_instruction 3 is definetly not executed
+if we have a catch for the exception in some_single_instruciton_2 then some_single_instruciton_4 will be executed after the action in the catch block is done
+if we dont have an catch for the execption in some_single_instruction_2 then the programm will exit and some_single_instruction_4 will not be run
