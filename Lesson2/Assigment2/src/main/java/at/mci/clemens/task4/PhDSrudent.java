@@ -73,7 +73,5 @@ public class PhDSrudent extends TAStudent {
     public void studyForPhd(){
         System.out.println("Student" + this.getName() + " is currently working hard on studying for his PhD in " + this.getDoesPhDIn());
     }
-
-    
-    
+  
 }
