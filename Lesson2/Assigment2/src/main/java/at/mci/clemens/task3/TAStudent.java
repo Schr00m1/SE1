@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package at.mci.clemens.task3;
-import at.mci.clemens.task3.Student
+
 
 /**
  *

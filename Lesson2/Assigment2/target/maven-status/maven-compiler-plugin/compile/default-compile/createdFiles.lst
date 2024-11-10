@@ -1,2 +1,8 @@
-at/mci/clemens/task2/Student.class
-at/mci/clemens/task2/TAStudent.class
+at/mci/clemens/task6/NoIdException.class
+at/mci/clemens/task6/WrongArgumentTypeExeption.class
+at/mci/clemens/task6/NoNameException.class
+at/mci/clemens/task3/Student.class
+at/mci/clemens/task7/CreateNrOfStudents.class
+at/mci/clemens/task4/PhDStudent.class
+at/mci/clemens/task3/TAStudent.class
+at/mci/clemens/task6/StudentConsoleLineBuilder.class

@@ -11,39 +11,39 @@ import at.mci.clemens.task3.TAStudent;
  * @author Clemens
  * we can extend TAStudent since PhDStudent also has the teaching support and else only extra parameters 
  */
-public class PhDSrudent extends TAStudent {
+public class PhDStudent extends TAStudent {
     private String hasDegreeIn;
     private String doesPhDIn;
 
-    public PhDSrudent() {
+    public PhDStudent() {
     }
 
-    public PhDSrudent(int studentID) {
+    public PhDStudent(int studentID) {
         super(studentID);
     }
 
-    public PhDSrudent(String name, int studentID) {
+    public PhDStudent(String name, int studentID) {
         super(name, studentID);
     }
 
-    public PhDSrudent(String name, int studentID, String gender) {
+    public PhDStudent(String name, int studentID, String gender) {
         super(name, studentID, gender);
     }
 
-    public PhDSrudent(String name, int studentID, String gender, String group) {
+    public PhDStudent(String name, int studentID, String gender, String group) {
         super(name, studentID, gender, group);
     }
 
-    public PhDSrudent(String name, int studentID, String gender, String group, String proficiencyInJava) {
+    public PhDStudent(String name, int studentID, String gender, String group, String proficiencyInJava) {
         super(name, studentID, gender, group, proficiencyInJava);
     }
 
-    public PhDSrudent(String hasDegreeIn, String name, int studentID, String gender, String group, String proficiencyInJava, String supportTask) {
+    public PhDStudent(String hasDegreeIn, String name, int studentID, String gender, String group, String proficiencyInJava, String supportTask) {
         super(name, studentID, gender, group, proficiencyInJava, supportTask);
         this.hasDegreeIn = hasDegreeIn;
     }
 
-    public PhDSrudent(String hasDegreeIn, String doesPhDIn, String name, int studentID, String gender, String group, String proficiencyInJava, String supportTask) {
+    public PhDStudent(String hasDegreeIn, String doesPhDIn, String name, int studentID, String gender, String group, String proficiencyInJava, String supportTask) {
         super(name, studentID, gender, group, proficiencyInJava, supportTask);
         this.hasDegreeIn = hasDegreeIn;
         this.doesPhDIn = doesPhDIn;
