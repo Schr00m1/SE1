@@ -9,6 +9,11 @@ package at.mci.clemens.task7;
  * @author Clemens
  */
 public class NegativeIntException extends Exception{
+
+    /**
+     *
+     * @param message
+     */
     public NegativeIntException(String message){
         super(message);
     }

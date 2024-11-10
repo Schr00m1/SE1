@@ -24,7 +24,13 @@ public class StudentConsoleLineBuilder {
     private String name;
     private Student newStudent;
 
-    
+    /**
+     *
+     * @return
+     * @throws WrongArgumentTypeExeption
+     * @throws NoIdException
+     * @throws NoNameException
+     */
     public Student readConsoleLineInput() throws WrongArgumentTypeExeption, NoIdException, NoNameException{
         
         Scanner inputReader = new Scanner(System.in);

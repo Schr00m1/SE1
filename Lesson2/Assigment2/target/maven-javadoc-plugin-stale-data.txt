@@ -1,0 +1,48 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'23'
+-sourcepath
+'/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Assigment2 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Assigment2 1.0-SNAPSHOT API'
+at.mci.clemens.task4
+at.mci.clemens.task8
+at.mci.clemens.task3
+at.mci.clemens.task7
+at.mci.clemens.task6
+at.mci.clemens.task9
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/src/main/java = 1731135299723
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/tag-search-index.js = 1731270222216
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/package-search-index.js = 1731270222213
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/type-search-index.js = 1731270222213
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/allclasses-index.html = 1731270222213
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/index.html = 1731270222200
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/search.html = 1731270222230
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/overview-summary.html = 1731270222233
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/serialized-form.html = 1731270222143
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/allpackages-index.html = 1731270222213
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/index-all.html = 1731270222230
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/element-list = 1731270222100
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/member-search-index.js = 1731270222213
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/overview-tree.html = 1731270222196
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/help-doc.html = 1731270222236
+/home/Clemens/MCI/WS24/SE1/Lesson2/Assigment2/target/reports/apidocs/module-search-index.js = 1731270222213

@@ -9,6 +9,11 @@ package at.mci.clemens.task6;
  * @author Clemens
  */
 public class NoIdException extends Exception{
+
+    /**
+     *
+     * @param message
+     */
     public NoIdException(String message){
         super(message);
     }

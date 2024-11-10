@@ -15,6 +15,12 @@ public class CreateNrOfStudents  {
     private Student[] students;
     private int amountOfStudents;
     
+    /**
+     *
+     * @return
+     * @throws WrongArgumentTypeExeption
+     * @throws NegativeIntException
+     */
     public Student[] createNrOfStudents() throws WrongArgumentTypeExeption, NegativeIntException{
              Scanner inputReader = new Scanner(System.in);
             System.out.println("How many students to you want to creates?: ");
@@ -43,17 +49,5 @@ public class CreateNrOfStudents  {
              }           
                         
             return this.students;
-    }
-    public static void main(String[] args) {
-        CreateNrOfStudents creator = new CreateNrOfStudents();
-        Student[] mystudents = null;
-        try{
-            mystudents = creator.createNrOfStudents();
-        }catch(WrongArgumentTypeExeption e){
-            System.out.println(e);
-        }
-        for(int i = 0; i < mystudents.length; i++){
-            System.out.println(mystudents[i].toString());
-        }
     }
 }

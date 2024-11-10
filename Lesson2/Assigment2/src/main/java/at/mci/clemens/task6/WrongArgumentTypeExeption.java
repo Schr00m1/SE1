@@ -9,6 +9,11 @@ package at.mci.clemens.task6;
  * @author Clemens
  */
 public class WrongArgumentTypeExeption extends Exception{
+
+    /**
+     *
+     * @param message
+     */
     public WrongArgumentTypeExeption(String message){
         super(message);
     }

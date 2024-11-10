@@ -9,6 +9,11 @@ package at.mci.clemens.task6;
  * @author Clemens
  */
 public class NoNameException extends Exception{
+
+    /**
+     *
+     * @param message
+     */
     public NoNameException(String message){
         super(message);
     }
