@@ -1,0 +1,6 @@
+Excercise 1: not mandetory
+Excercise 2: 100% using Factory and Singleton
+Excercise 3: 100% using factory and singleton
+Excercise 4: 100 using builder pattern
+---------------------------------------------
+Total 100%

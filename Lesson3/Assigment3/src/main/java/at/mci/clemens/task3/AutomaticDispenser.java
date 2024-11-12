@@ -9,10 +9,18 @@ package at.mci.clemens.task3;
  * @author Clemens
  */
 public class AutomaticDispenser {
+
+    /**
+     *
+     */
     public static final AutomaticDispenser C_INSTANCE = new AutomaticDispenser();
     
     private AutomaticDispenser(){}
     
+    /**
+     *
+     * @return
+     */
     public Beverage dispenseDrink(){
         return BeverageFactory.createDrink();
     }

@@ -9,11 +9,22 @@ package at.mci.clemens.task2;
  * @author Clemens
  */
 public class PeriodicTable {
+
+    /**
+     *
+     */
     public static final PeriodicTable C_INSTANCE = new PeriodicTable();
     private final Element[] elements = new Element[118];
     
     private PeriodicTable(){}
     
+    /**
+     *
+     * @param num
+     * @param name
+     * @param symbol
+     * @return
+     */
     public Element addElement(int num, String name, String symbol){
         //Acount for 0 indexing
         num = num-1; 
@@ -30,6 +41,12 @@ public class PeriodicTable {
             }
         }
     }
+
+    /**
+     *
+     * @param num
+     * @throws PeriodicNumOutOfRangeException
+     */
     public void printElement(int num) throws PeriodicNumOutOfRangeException{
         //Account for 0 indexing
         num = num -1;
@@ -39,6 +56,10 @@ public class PeriodicTable {
             System.out.println((this.elements[num].toString()));
         }
     }
+
+    /**
+     *
+     */
     public void printAllElements(){
         for(int i = 0; i  < 118; i++){
             if(this.elements[i] != null){

@@ -9,6 +9,11 @@ package at.mci.clemens.task2;
  * @author Clemens
  */
 public class PeriodicNumOutOfRangeException extends Exception {
+
+    /**
+     *
+     * @param message
+     */
     public PeriodicNumOutOfRangeException(String message) {
         super(message);
     }

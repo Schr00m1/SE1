@@ -15,6 +15,10 @@ public class BeverageFactory {
     private static final LocalTime teaStart = LocalTime.of(16, 0);
     private static final LocalTime teaEnd = LocalTime.of(21, 0);
     
+    /**
+     *
+     * @return
+     */
     public static Beverage createDrink(){
         LocalTime currentTime = LocalTime.now();
         if(currentTime.isAfter(coffeStart) && currentTime.isBefore(coffeEnd)){

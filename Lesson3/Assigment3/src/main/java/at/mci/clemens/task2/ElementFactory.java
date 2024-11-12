@@ -9,6 +9,16 @@ package at.mci.clemens.task2;
  * @author Clemens
  */
 public class ElementFactory {
+
+    /**
+     *
+     * @param num
+     * @param name
+     * @param symbol
+     * @return
+     * @throws PeriodicNumOutOfRangeException
+     * @throws WrongSymbolException
+     */
     public static Element createElement(int num, String name, String symbol) 
                                                                              throws PeriodicNumOutOfRangeException, WrongSymbolException{
         if(num < 1 || num  > 118){

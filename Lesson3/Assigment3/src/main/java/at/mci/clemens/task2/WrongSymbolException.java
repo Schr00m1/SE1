@@ -9,6 +9,11 @@ package at.mci.clemens.task2;
  * @author Clemens
  */
 public class WrongSymbolException extends Exception {
+
+    /**
+     *
+     * @param message
+     */
     public WrongSymbolException(String message) {
         super(message);
     }

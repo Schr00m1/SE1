@@ -12,9 +12,18 @@ public abstract class Beverage {
     
     private String type;
     
+    /**
+     *
+     * @param type
+     */
     public Beverage(String type){
         this.type = type;
     }
+
+    /**
+     *
+     * @return
+     */
     public String getType() {
         return type;
     }

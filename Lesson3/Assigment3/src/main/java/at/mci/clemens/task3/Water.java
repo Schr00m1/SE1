@@ -10,6 +10,10 @@ package at.mci.clemens.task3;
  */
 public class Water extends Beverage {
 
+    /**
+     *
+     * @param type
+     */
     public Water(String type) {
         super(type);
     }

@@ -9,6 +9,11 @@ package at.mci.clemens.task3;
  * @author Clemens
  */
 public class MainTask3 {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         AutomaticDispenser dispenser = AutomaticDispenser.C_INSTANCE;
         Beverage drink = dispenser.dispenseDrink();

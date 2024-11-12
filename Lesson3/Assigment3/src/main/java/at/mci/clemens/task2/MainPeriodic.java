@@ -9,6 +9,11 @@ package at.mci.clemens.task2;
  * @author Clemens
  */
 public class MainPeriodic {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         PeriodicTable myTable = PeriodicTable.C_INSTANCE;
         myTable.addElement(1, "Hydrogen", "H");
