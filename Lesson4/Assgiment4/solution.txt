@@ -1,0 +1,6 @@
+Task1: not mandetory
+Task2: 100% using decorator pattern
+Task3: 100% Using composite pattern
+Task4: 100% using proxy pattern
+-----------------------------------
+Total 100% 
