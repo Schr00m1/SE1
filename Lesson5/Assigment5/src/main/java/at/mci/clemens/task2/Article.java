@@ -14,6 +14,9 @@ import java.util.List;
 public class Article {
     private List<String> articles = new ArrayList<>();
 
+    /**
+     *
+     */
     public Article() {
         this.articles.add("November 15, 2024\nA new public park officially opened in downtown today, offering green space for locals to relax and exercise. The park features walking trails, a playground, and a small pond. The opening ceremony was attended by city officials and community members. Mayor Elena Clark praised the new park as a step towards improving urban livability.");
 
@@ -37,6 +40,11 @@ public class Article {
 
     }
 
+    /**
+     *
+     * @param index
+     * @return
+     */
     public String getArticle(int index) {
         return this.articles.get(index);
     }

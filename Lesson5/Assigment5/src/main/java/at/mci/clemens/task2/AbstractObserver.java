@@ -9,5 +9,10 @@ package at.mci.clemens.task2;
  * @author Clemens
  */
 public abstract class AbstractObserver {
+
+    /**
+     *
+     * @param message
+     */
     abstract public void update(String message);
 }

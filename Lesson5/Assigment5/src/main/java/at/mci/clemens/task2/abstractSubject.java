@@ -9,7 +9,21 @@ package at.mci.clemens.task2;
  * @author Clemens
  */
 public abstract class abstractSubject {
+
+    /**
+     *
+     * @param o
+     */
     abstract public void attach(AbstractObserver o);
+
+    /**
+     *
+     * @param o
+     */
     abstract public void detach (AbstractObserver o);
+
+    /**
+     *
+     */
     abstract public void notifyOther();
 }

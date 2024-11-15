@@ -15,11 +15,17 @@ public class APA extends abstractSubject {
     private List<AbstractObserver> observers;
     private String newsPaperText;
 
+    /**
+     *
+     */
     public APA() {
         this.observers = new ArrayList<>();
     }
     
-    
+    /**
+     *
+     * @param o
+     */
     @Override
     public void attach(AbstractObserver o) {
         if (o == null){
@@ -29,6 +35,10 @@ public class APA extends abstractSubject {
         }
     }
 
+    /**
+     *
+     * @param o
+     */
     @Override
     public void detach(AbstractObserver o) {
         if(o == null){
@@ -38,6 +48,9 @@ public class APA extends abstractSubject {
         }
     }
 
+    /**
+     *
+     */
     @Override
     public void notifyOther() {
             for (AbstractObserver o : this.observers){
@@ -45,6 +58,10 @@ public class APA extends abstractSubject {
             }
     }
     
+    /**
+     *
+     * @param text
+     */
     public void releasePaper(String text){
         this.newsPaperText = text;
         this.notifyOther();

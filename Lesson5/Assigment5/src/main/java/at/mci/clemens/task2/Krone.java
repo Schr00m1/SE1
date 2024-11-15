@@ -10,6 +10,10 @@ package at.mci.clemens.task2;
  */
 public class Krone extends AbstractObserver {
 
+    /**
+     *
+     * @param message
+     */
     @Override
     public void update(String message) {
         System.out.println("Krone is publishing a new paper");

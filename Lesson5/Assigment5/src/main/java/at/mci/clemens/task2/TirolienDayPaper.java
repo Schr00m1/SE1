@@ -10,6 +10,10 @@ package at.mci.clemens.task2;
  */
 public class TirolienDayPaper extends AbstractObserver {
 
+    /**
+     *
+     * @param message
+     */
     @Override
     public void update(String message) {
         System.out.println("TTT is Publishing a new paper");

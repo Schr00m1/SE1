@@ -10,6 +10,10 @@ package at.mci.clemens.task2;
  */
 public class FsFe extends AbstractObserver {
 
+    /**
+     *
+     * @param message
+     */
     @Override
     public void update(String message) {
         System.out.println("The FsFe is realising a new paper");
