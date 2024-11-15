@@ -10,6 +10,10 @@ package at.mci.clemens.task3;
  */
 public class SelectionSort implements SortingAlg {
 
+    /**
+     *
+     * @param array
+     */
     @Override
     public void sortArray(int[] array) {
         int n = array.length;

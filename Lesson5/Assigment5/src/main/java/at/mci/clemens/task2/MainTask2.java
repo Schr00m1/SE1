@@ -10,6 +10,11 @@ import java.util.Random;
  * @author Clemens
  */
 public class MainTask2 {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Random random = new Random();
         Article article = new Article();

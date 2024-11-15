@@ -11,9 +11,18 @@ package at.mci.clemens.task3;
 public class Sorter {
     private SortingAlg sortingAlg;
     
+    /**
+     *
+     * @param algo
+     */
     public void setSortingAlgorithm(SortingAlg algo){
         this.sortingAlg = algo;
     }
+
+    /**
+     *
+     * @param array
+     */
     public void sort(int array[]){
         if(this.sortingAlg != null){
              this.sortingAlg.sortArray(array);

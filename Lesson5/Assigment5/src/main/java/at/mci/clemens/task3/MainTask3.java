@@ -9,6 +9,11 @@ package at.mci.clemens.task3;
  * @author Clemens
  */
 public class MainTask3 {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int array[] = {40, 51, 5, 40, 80, 13, 47, 41, 44, 48, 43, 34, 68, 91, 89, 51, 52, 50, 37, 71};
         Sorter mySorter = new Sorter();

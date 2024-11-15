@@ -10,6 +10,11 @@ package at.mci.clemens.task3;
  */
 public class ArrayPrinter {
     // Method to print the elements of an array
+
+    /**
+     *
+     * @param array
+     */
     public static void printArray(int[] array) {
         // Check if the array is null
         if (array == null) {

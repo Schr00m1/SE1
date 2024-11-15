@@ -9,5 +9,10 @@ package at.mci.clemens.task3;
  * @author Clemens
  */
 public interface SortingAlg {
+
+    /**
+     *
+     * @param array
+     */
     void sortArray(int array[]);
 }

@@ -10,6 +10,10 @@ package at.mci.clemens.task3;
  */
 public class MergeSort implements SortingAlg {
 
+    /**
+     *
+     * @param array
+     */
     @Override
     public void sortArray(int[] array) {
         if (array.length < 2) {
@@ -34,6 +38,13 @@ public class MergeSort implements SortingAlg {
     }
 
     // Method to merge two sorted arrays into the original array
+
+    /**
+     *
+     * @param array
+     * @param left
+     * @param right
+     */
     public static void merge(int[] array, int[] left, int[] right) {
         int i = 0, j = 0, k = 0;
 
