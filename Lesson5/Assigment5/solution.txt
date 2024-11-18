@@ -1,3 +1,6 @@
 Task 1: not mandetory
 Task 2: 100% Using the observer Pattern
 Task 3: 100% Using the Stragety Pattern
+Task 4: 100% Using the template Pattern
+---------------------------------------
+Total 100%

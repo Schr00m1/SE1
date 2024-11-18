@@ -14,13 +14,14 @@ public abstract class BuildHouse {
         buildWalls();
         buildRoof();
         insertDoorsWindows();
+        System.out.println("House Building Completey, Ready to move in");
     }
     
     //building the foundation is same for all houses
     private void buildFoundation(){
         System.out.println("We are building the foundation now");
     }
-    protected abstract void buildWalls();
-    protected abstract void buildRoof();
-    protected abstract void insertDoorsWindows();
+     protected abstract void buildWalls();
+     protected abstract void buildRoof();
+     protected abstract void insertDoorsWindows();
 }
