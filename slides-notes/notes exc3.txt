@@ -1,0 +1,30 @@
+Task2
+
+Class Periodic Table create with singleton pattern since only one needed
+has array of size 118 with type element which represents the elements by their periodic number
+firstly set them to null
+have a method that calls the ElementFactory which creates an elemet and returns it 
+
+Eleemnt factory has a static method createElement which doess all type checking of the input
+
+the class element has the members name periodic number and symbol which also get addeed into the constructor 
+
+Task3 
+
+Create an class AutomaticDispenser using the singleton pattern since we only need one connect to one class 
+
+it has a method dispense drink which then calls the class DrinkFactory
+
+DrinkFactory is a factory class which looks at the current time of the day and then returns a certain type of drink 
+
+we have 3 classes for each drink one with the memeber variable type which is either tea water or coffee 
+
+Task4 
+
+here i would follow the builder pattern. size and temperature are mandetory parameters milk cream and sugar are optional paramter
+
+have a builder constructor for coffee tea and water which have size and temperature as paramters 
+the have optional building methods for milk sugar and cream which i would store as boolean
+
+have the build method which returns the builder to the outer class and that then fills in the right paramters 
+also override the to String method to output the whole drink
