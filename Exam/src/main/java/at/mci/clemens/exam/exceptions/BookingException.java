@@ -9,6 +9,11 @@ package at.mci.clemens.exam.exceptions;
  * @author Clemens
  */
 public class BookingException extends Exception {
+
+    /**
+     *
+     * @param message
+     */
     public BookingException(String message) {
         super(message);
     }

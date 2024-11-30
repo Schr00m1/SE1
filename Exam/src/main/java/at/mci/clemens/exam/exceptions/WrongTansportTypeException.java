@@ -9,6 +9,11 @@ package at.mci.clemens.exam.exceptions;
  * @author Clemens
  */
 public class WrongTansportTypeException extends Exception {
+
+    /**
+     *
+     * @param message
+     */
     public WrongTansportTypeException(String message){
         super(message);
     }

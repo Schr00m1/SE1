@@ -11,6 +11,11 @@ import at.mci.clemens.exam.exceptions.BookingException;
  * @author Clemens
  */
 public class Main {
+
+    /**
+     *main class to test functionality
+     * @param args
+     */
     public static void main(String[] args) {
         try{
         TransportApp.appInstance.BookTrip("Taxi", "PayPal", "MCI" ,50);
