@@ -34,7 +34,7 @@ public final class TransportApp {
      * 
      * @param transportType the type of transport the user chose
      * @param paymentType the type of payment the user chose
-     * @param location the location the user wants to get transportet to
+     * @param location the location the user wants to get transported to
      * @param kilometers how long is the trip
      * @throws BookingException exception that notifies the user for booking errors
      */
