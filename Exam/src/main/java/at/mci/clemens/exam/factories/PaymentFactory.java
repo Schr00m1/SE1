@@ -20,6 +20,13 @@ import java.util.logging.Logger;
  * @author Clemens
  */
 public final class PaymentFactory {
+
+    /**
+     *
+     * @param type the type of payment we want to create
+     * @return returns the correct payment 
+     * @throws WrongPaymentTypeException throws an exception if wrong arguments are passed
+     */
     public static PaymentStragety getPayment(String type) throws WrongPaymentTypeException{
         if("BankTransfer".equals(type)){
             System.out.println("Enter IBan");

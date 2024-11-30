@@ -17,6 +17,12 @@ import at.mci.clemens.exam.exceptions.WrongTansportTypeException;
  */
 public final class TransportFactory {
     
+    /**
+     *
+     * @param type the type of transport we want to create
+     * @return returns the correct type of transport 
+     * @throws WrongTansportTypeException throws an exception if an error occours
+     */
     public static TransportStragety getTransport(String type) throws WrongTansportTypeException{
         if("Taxi".equals(type)){
             return new TaxiTransport();

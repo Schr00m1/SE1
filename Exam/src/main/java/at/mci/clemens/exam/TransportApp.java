@@ -22,10 +22,22 @@ public final class TransportApp {
     private PaymentStragety payment;
     private TransportStragety transport;
     
+    /**
+     *
+     */
     public static final TransportApp appInstance = new TransportApp();
     
     private TransportApp(){}
     
+    /**
+     *Class for the actual app 
+     * 
+     * @param transportType the type of transport the user chose
+     * @param paymentType the type of payment the user chose
+     * @param location the location the user wants to get transportet to
+     * @param kilometers how long is the trip
+     * @throws BookingException exception that notifies the user for booking errors
+     */
     public void BookTrip(String transportType, String paymentType, String location, int kilometers) throws BookingException{
             try{
             this.transport = TransportFactory.getTransport(transportType);

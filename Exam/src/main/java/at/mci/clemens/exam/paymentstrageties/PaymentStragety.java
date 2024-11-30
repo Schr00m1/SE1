@@ -5,9 +5,14 @@
 package at.mci.clemens.exam.paymentstrageties;
 
 /**
- *
+ * the original stragety class for all payments
  * @author Clemens
  */
 public abstract class PaymentStragety {
+
+    /**
+     *
+     * @param amount
+     */
     public abstract void pay(int amount);
 }

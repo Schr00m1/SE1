@@ -9,6 +9,11 @@ package at.mci.clemens.exam.exceptions;
  * @author Clemens
  */
 public class WrongPaymentTypeException extends Exception {
+
+    /**
+     *
+     * @param message
+     */
     public WrongPaymentTypeException(String message){
         super(message);
     }

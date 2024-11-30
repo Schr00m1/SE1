@@ -10,10 +10,19 @@ package at.mci.clemens.exam.transportstrageties;
  */
 public class TaxiTransport extends TransportStragety {
 
+    /**
+     *
+     */
     public TaxiTransport() {
         super(15);
     }
 
+    /**
+     *
+     * @param location
+     * @param kilometers
+     * @return
+     */
     @Override
     public int transportPerson(String location, int kilometers) {
         int priceForTrip = kilometers*this.pricePerkm;

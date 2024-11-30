@@ -10,12 +10,27 @@ package at.mci.clemens.exam.transportstrageties;
  */
 public abstract class TransportStragety {
     final int pricePerkm;
+
+    /**
+     *
+     * @param location
+     * @param kilometers
+     * @return
+     */
     public abstract int transportPerson(String location, int kilometers);
     
+    /**
+     *
+     */
     protected  TransportStragety(){
         System.out.println("There has been an error with the transport stregety");
         this.pricePerkm = 0;
     }
+
+    /**
+     *
+     * @param price
+     */
     protected TransportStragety(int price){
         this.pricePerkm = price;
     }
