@@ -1,0 +1,20 @@
+I am using the stragety pattern, the factory pattern and the singleton pattern in my task
+I am using the stragety pattern so that I can use many diffrent Payment Strageties/ Transport Stregties and also easily add more of them
+I am using the factory pattern to create each object of paymentStragety/TransportStragety so that i can easily extend my programm with new ones
+I am using the singleton pattern to only create one instance of my app to not clutter memory
+
+I tried drawing UML but didnt find any tools i was able to use quickly during exam so i try to write it down here
+
+i have an abstract class PaymentStragety from that stragety all concrete payment strageties inherit in that abstract class i have an abstract method pay
+Pretty much the same for transport i have an abstract class TransportStragety which has an abstract method transportPerson with location and kilometers as parameters
+concrete classes inherit from that an implement each type seperatly
+
+i have a class PaymentFactory and TransportFactory both of which i can give a type of transport/payment they then create an concrete payment/transport and return them as retrun type i have
+PaymentStraety/TransportStragety which leads to easily adding more strageties
+
+the class TransportApp uses the factories to get the right objects and uses them to book a trip and pay for it
+
+
+what could also be implemented if more time and needed (For reasons of keeping it simpler and not cluttering the code i didnt implement it)
+
+check for positive kilometers right locations right email etc.
